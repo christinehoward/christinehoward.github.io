@@ -1,0 +1,91 @@
+/* Write some CSS below */
+body{
+	margin: 0;
+	color: rgb(150, 150, 150);
+	background-color: white;
+	font-family: 'Literata', serif;
+	font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+	font-family: DM Sans;
+	color: #476020;
+	font-size: 50px;
+}
+h3 {
+	font-family: DM Sans;
+	color: #24566B;
+	font-size: 45px;
+}
+h4 {
+	font-family: DM Sans;
+	color: white;
+}
+p {
+	font-family: DM Sans;
+	color: #564FA8;
+}
+a {
+	text-decoration: none;
+	color: #82D173;
+	font-size: 50px;
+	font-weight: bold;
+}
+a:hover {
+	color: #564FA8;
+}
+img {
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+}
+.locations-button {
+	padding: 0px;
+	margin: 50px 450px 0 450px;
+	border-radius: 3px;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/background.jpg'); 
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	box-shadow: 5px 5px 5px grey;
+}
+#banner {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/background.jpg'); 
+	background-size: cover;
+	background-position: center;
+	padding: 150px;
+	text-align: center;
+}
+.button-b {
+	padding: 10px;
+	margin-top: 200px;
+	border-radius: 20px;
+	background-color: black;
+	transition: .35;
+	box-shadow: 5px 5px 5px grey;
+}
+.button-b:hover {
+	background-color: grey;
+}
+#footer {
+	text-align: center;
+	background-color: black;
+}
+.cards {
+	display: flex;
+	align-content: space-around;
+}
+.card {
+	background-color: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 3px;
+	width: 200px;
+	text-align: center;
+	padding: 24px;
+	margin: 10px 50px;
+}
+.typeform-widget {
+	padding: 0px;
+	margin-top: 20px;
+	align-content: center;
+}
